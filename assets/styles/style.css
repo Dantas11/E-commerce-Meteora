@@ -1,11 +1,21 @@
 .text-description {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 .green-lemon-color {
-    color: #DAFF01;
+  color: #daff01;
 }
 
 .lilac-color {
-    background-color: #9353FF;
+  background-color: #9353ff;
+}
+
+.text-position {
+  top: 40%;
+}
+
+@media (max-width: 767px) {
+  .text-position {
+    top: 60%;
+  }
 }
