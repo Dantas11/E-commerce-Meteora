@@ -12,9 +12,9 @@ This project is a simple web page designed to showcase a e-commerce page with a 
 
 ## SCREENSHOTS
 
-![Pet-Adoption-Page](https://github.com/Dantas11/Pet-Adoption/blob/main/assets/images/A2.png)
-![Pet-Adoption-Page](https://github.com/Dantas11/Pet-Adoption/blob/main/assets/images/A4.png)
-![Pet-Adoption-Page](https://github.com/Dantas11/Pet-Adoption/blob/main/assets/images/A3.png)
+![e-commerce-page]()
+![e-commerce-page]()
+![e-commerce-page]()
 
 ## Technologies Used
 
@@ -29,7 +29,7 @@ Application can run in any Web browser such as Chrome or Safari
 ## Usage
 
 - Browse through the list of categories and products.
-- -Click on category to view more products of the category.
+- Click on category to view more products of the category.
 - Click on products to view more details of product.
 
 ## Contributing
