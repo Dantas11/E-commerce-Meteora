@@ -12,9 +12,10 @@ This project is a simple web page designed to showcase an e-commerce page with a
 
 ## SCREENSHOTS
 
-![e-commerce-page]()
-![e-commerce-page]()
-![e-commerce-page]()
+![e-commerce-page](https://github.com/Dantas11/E-commerce-Meteora/blob/main/assets/images/AA-1.png)
+![e-commerce-page](https://github.com/Dantas11/E-commerce-Meteora/blob/main/assets/images/AA-2.png)
+![e-commerce-page](https://github.com/Dantas11/E-commerce-Meteora/blob/main/assets/images/AA-3.png)
+![e-commerce-page](https://github.com/Dantas11/E-commerce-Meteora/blob/main/assets/images/AA-4.png)
 
 ## Technologies Used
 
