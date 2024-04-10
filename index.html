@@ -16,7 +16,9 @@
     <header>
         <nav class="navbar navbar-expand-md bg-black navbar-dark py-4">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><h1 class="m-0"><img class="d-block" src="assets/images/logo-meteora.png" alt="logo"></h1></a>
+                <a class="navbar-brand" href="#">
+                    <h1 class="m-0"><img class="d-block" src="assets/images/logo-meteora.png" alt="logo"></h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +40,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2 rounded-0" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2 rounded-0" type="search" placeholder="Search"
+                            aria-label="Search">
                         <button class="btn btn-outline-light rounded-0" type="submit">Search</button>
                     </form>
                 </div>
@@ -46,7 +49,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="carousel">
             <div id="carouselExampleCaptions" class="carousel" slide data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class=""
@@ -58,26 +61,35 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item">
-                        <img class="img-fluid d-md-none" src="assets/images/Mobile/banner1-mobile.png" alt="image description">
-                        <img class="img-fluid d-none d-md-block d-lg-none" src="assets/images/Tablet/banner1-tablet.png" alt="image description">
-                        <img class="img-fluid d-none d-lg-block w-100" src="assets/images/Desktop/banner1-desktop.png" alt="image description">
+                        <img class="img-fluid d-md-none" src="assets/images/Mobile/banner1-mobile.png"
+                            alt="a woman wearing jackect and pants">
+                        <img class="img-fluid d-none d-md-block d-lg-none w-100"
+                            src="assets/images/Tablet/banner1-tablet.png" alt="a woman wearing jackect and pants">
+                        <img class="img-fluid d-none d-lg-block w-100" src="assets/images/Desktop/banner1-desktop.png"
+                            alt="a woman wearing jackect and pants">
                     </div>
                     <div class="carousel-item">
-                        <img class="img-fluid d-md-none" src="assets/images/Mobile/banner2-mobile.png" alt="image description" >
-                        <img class="img-fluid d-none d-md-block d-lg-none" src="assets/images/Tablet/banner2-tablet.png" alt="image description" >
-                        <img class="img-fluid d-none d-lg-block w-100" src="assets/images/Desktop/banner2-desktop.png" alt="image description" >
+                        <img class="img-fluid d-md-none" src="assets/images/Mobile/banner2-mobile.png"
+                            alt="a woman wearing sun glasses">
+                        <img class="img-fluid d-none d-md-block d-lg-none w-100"
+                            src="assets/images/Tablet/banner2-tablet.png" alt="a woman wearing sun glasses">
+                        <img class="img-fluid d-none d-lg-block w-100" src="assets/images/Desktop/banner2-desktop.png"
+                            alt="a woman wearing sun glasses">
                         <div class="carousel-caption d-none d-md-block text-position">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Hot Products Every Day</h5>
+                            <p>Offers and Discounts for all our members.</p>
                         </div>
                     </div>
                     <div class="carousel-item active">
-                        <img class="img-fluid d-md-none" src="assets/images/Mobile/banner3-mobile.png" alt="image description">
-                        <img class="img-fluid d-none d-md-block d-lg-none" src="assets/images/Tablet/banner3-tablet.png" alt="image description">
-                        <img class="img-fluid d-none d-lg-block w-100" src="assets/images/Desktop/banner3-desktop.png" alt="image description">
+                        <img class="img-fluid d-md-none" src="assets/images/Mobile/banner3-mobile.png"
+                            alt="a man wearing glasses and a black hat">
+                        <img class="img-fluid d-none d-md-block d-lg-none w-100"
+                            src="assets/images/Tablet/banner3-tablet.png" alt="a man wearing glasses and a black hat">
+                        <img class="img-fluid d-none d-lg-block w-100" src="assets/images/Desktop/banner3-desktop.png"
+                            alt="a man wearing glasses and a black hat">
                         <div class="carousel-caption d-none d-md-block text-position">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Get Dressed Up with Meteora</h5>
+                            <p>Range of products right for you.</p>
                         </div>
                     </div>
                 </div>
@@ -93,139 +105,135 @@
                 </button>
             </div>
         </section>
-        <section class="container row mx-auto g-5 pt-5">
+        <section id="categories" class="container row mx-auto g-5 pt-5">
             <h2 class="text-center">Search by Category:</h2>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card">
-                    <img src="assets/images/Desktop/categorias/categoria-bolsa.png" alt="">
+                    <img src="assets/images/Desktop/categorias/categoria-bolsa.png" alt="a purse image">
                     <div class="card-header bg-dark text-bg-dark">
-                        <p class="text-center card-text">Category</p>
+                        <p class="text-center card-text">Purses</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card">
-                    <img src="assets/images/Desktop/categorias/categoria-calcados.png" alt="">
+                    <img src="assets/images/Desktop/categorias/categoria-calcados.png" alt="shoes image">
                     <div class="card-header bg-dark text-bg-dark">
-                        <p class="text-center card-text">Category</p>
+                        <p class="text-center card-text">Shoes</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card">
-                    <img src="assets/images/Desktop/categorias/categoria-calcas.png" alt="">
+                    <img src="assets/images/Desktop/categorias/categoria-calcas.png" alt="pants image">
                     <div class="card-header bg-dark text-bg-dark">
-                        <p class="text-center card-text">Category</p>
+                        <p class="text-center card-text">Pants</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card">
-                    <img src="assets/images/Desktop/categorias/categoria-camiseta.png" alt="">
+                    <img src="assets/images/Desktop/categorias/categoria-camiseta.png" alt="green t-shirt image">
                     <div class="card-header bg-dark text-bg-dark">
-                        <p class="text-center card-text">Category</p>
+                        <p class="text-center card-text">T-Shirts</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card">
-                    <img src="assets/images/Desktop/categorias/categoria-casacos.png" alt="">
+                    <img src="assets/images/Desktop/categorias/categoria-casacos.png" alt="jacket image">
                     <div class="card-header bg-dark text-bg-dark">
-                        <p class="text-center card-text">Category</p>
+                        <p class="text-center card-text">Jackets</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card">
-                    <img src="assets/images/Desktop/categorias/categoria-oculos.png" alt="">
+                    <img src="assets/images/Desktop/categorias/categoria-oculos.png" alt="sun glasses image">
                     <div class="card-header bg-dark text-bg-dark">
-                        <p class="text-center card-text">Category</p>
+                        <p class="text-center card-text">Glasses</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container row mx-auto g-5 py-5">
+        <section id="products" class="container row mx-auto g-5 py-5">
             <h2 class="text-center">Hot Products</h2>
             <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card">
-                    <img src="assets/images/Desktop/produtos/bolsa.png" alt="">
+                <div class="card d-flex flex-column h-100">
+                    <img src="assets/images/Desktop/produtos/bolsa.png" alt="a woman holding a purse">
                     <div class="card-body">
-                        <h5 class="card-title">Product</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <h5 class="card-title">Satchel Purses</h5>
+                        <p class="card-text">MATERIAL: High Quality PU Leather Texture:Alligator Grain,Purses and
+                            Handbags</p>
+                        <p>AU$310,00</p>
+                        <a href="#" class="btn btn-primary lilac-color">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 pb-4">
+                <div class="card d-flex flex-column h-100">
+                    <img src="assets/images/Desktop/produtos/calca.png" alt="a woman wearing light pants">
+                    <div class="card-body">
+                        <h5 class="card-title">FUNYYZO Wide Leg Pants</h5>
+                        <p class="card-text">FEATURE -- back elastic waist, high-waisted wide leg style, pleated front,
+                            loose fit, breathable and soft fabric, zipper closure, two side pockets .</p>
                         <p>AU$70,00</p>
                         <a href="#" class="btn btn-primary lilac-color">See More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card">
-                    <img src="assets/images/Desktop/produtos/calca.png" alt="">
+                <div class="card d-flex flex-column h-100">
+                    <img src="assets/images/Desktop/produtos/camiseta.png" alt="a man wearing a yellow t-shirt">
                     <div class="card-body">
-                        <h5 class="card-title">Product</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <p>AU$70,00</p>
+                        <h5 class="card-title">XYXX Men's Crewneck T-Shirt</h5>
+                        <p class="card-text">PREMIUM FABRIC BLEND: Enjoy The Perfect Harmony of Softness And Durability
+                            With The 60% Cotton And 40% Polyester Blend In This Men's T-Shirt.</p>
+                        <p>AU$30,00</p>
                         <a href="#" class="btn btn-primary lilac-color">See More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card">
-                    <img src="assets/images/Desktop/produtos/camiseta.png" alt="">
+                <div class="card d-flex flex-column h-100">
+                    <img src="assets/images/Desktop/produtos/jaqueta-jeans.png" alt="a man wearing a jean jacket">
                     <div class="card-body">
-                        <h5 class="card-title">Product</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <p>AU$70,00</p>
+                        <h5 class="card-title">Wrangler Men's Rugged</h5>
+                        <p class="card-text">Machine wash cold, wash separately, only non-chlorine bleach when needed,
+                            tumble dry low, remove promptly, cool iron if necessary</p>
+                        <p>AU$170,00</p>
                         <a href="#" class="btn btn-primary lilac-color">See More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card">
-                    <img src="assets/images/Desktop/produtos/jaqueta-jeans.png" alt="">
+                <div class="card d-flex flex-column h-100">
+                    <img src="assets/images/Desktop/produtos/oculos.png" alt="a man wearing white t-shit and glasses">
                     <div class="card-body">
-                        <h5 class="card-title">Product</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <p>AU$70,00</p>
+                        <h5 class="card-title">Cyxus Light Glasses</h5>
+                        <p class="card-text">Anti bluelight lenses -- Different from ordinary anti-blue glasses, Cyxus
+                            lenses use American HEV-Absorb substrate absorption technology, which can absorb blue-light
+                            with wavelengths of 415-455.</p>
+                        <p>AU$120,00</p>
                         <a href="#" class="btn btn-primary lilac-color">See More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card">
-                    <img src="assets/images/Desktop/produtos/oculos.png" alt="">
+                <div class="card d-flex flex-column h-100">
+                    <img src="assets/images/Desktop/produtos/tenis.png" alt="white shoes">
                     <div class="card-body">
-                        <h5 class="card-title">Product</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <p>AU$70,00</p>
-                        <a href="#" class="btn btn-primary lilac-color">See More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 pb-4">
-                <div class="card">
-                    <img src="assets/images/Desktop/produtos/tenis.png" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Product</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <p>AU$70,00</p>
+                        <h5 class="card-title">Stand On Air Lace-Up</h5>
+                        <p class="card-text">Smooth clean leather-textured synthetic upper
+                            Lace-up fashion sneaker design
+                            Air Cooled Memory Foam cushioned comfort insole</p>
+                        <p>AU$150,00</p>
                         <a href="#" class="btn btn-primary lilac-color">See More</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="d-flex flex-column py-5 align-items-center bg-black text-bg-dark">
+        <section id="features" class="d-flex flex-column py-5 align-items-center bg-black text-bg-dark">
             <h2 class="text-center pb-5">Features</h2>
             <div class="d-flex flex-column flex-lg-row gap-5">
                 <div class="d-flex w-auto gap-4 align-items-center">
@@ -239,7 +247,7 @@
                     <div><i class="bi bi-arrow-repeat fs-1 green-lemon-color"></i></div>
                     <div>
                         <div class="fs-2 green-lemon-color">Free Exchange</div>
-                        <div class="text-description">Exchange your return your item in 30 days</div>
+                        <div class="text-description">Exchange or return your item in 30 days</div>
                     </div>
                 </div>
                 <div class="d-flex w-auto gap-4 align-items-center">
@@ -251,18 +259,19 @@
                 </div>
             </div>
         </section>
-        <section class="border border-secondary m-3 p-3 text-center w-50 mx-auto my-5">
+        <section id="sign-up" class="border border-secondary m-3 p-3 text-center w-50 mx-auto my-5">
             <form>
-                <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+                <h5>Want to receive news, hot products and 10% OFF on your first purchase ? Sign Up</h5>
                 <div class="input-group my-3">
-                    <input class="form-control border-secondary rounded-0" type="email" placeholder="Type your Email" aria-label="Type your Email"
-                        aria-describedby="button-addon2" />
+                    <label for="emailInput" class="visually-hidden">Email Address</label>
+                    <input class="form-control border-secondary rounded-0" type="email" placeholder="Type your Email"
+                        aria-label="Type your Email" aria-describedby="button-addon2" />
                     <button type="button" id="button-addon2">Send</button>
                 </div>
             </form>
         </section>
         <footer class="text-center bg-dark text-bg-dark py-2">
-            <p class="card-text py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+            <p class="card-text py-3">Front-End Web Developer. Created with HTML and Bootstrap.</p>
         </footer>
 
     </main>
