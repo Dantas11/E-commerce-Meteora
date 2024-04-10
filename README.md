@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a simple web page designed to showcase an e-commerce page with a vary of categories and products. This page is all done using the framework Bootstrap.
+This project is a simple web page designed to showcase an e-commerce page with a vary of categories and products. This page was built with Bootstrap framework only.
 
 ## Features
 
