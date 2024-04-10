@@ -42,19 +42,13 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 N/A
 
-## Credits
-
-Images: [Unsplash](https://unsplash.com/)
-
-Icons: [FontAwesome](https://fontawesome.com/)
-
 ## Future Technologies
 
 Users can sign up and login, be able to open a category and see all products related to the category, add products to the cart.
 
 ## Test and Deploy
 
-[Website page](https://dantas11.github.io/Pet-Adoption/)
+[Website page](https://dantas11.github.io/E-commerce-Meteora/)
 
 ## Contact
 
